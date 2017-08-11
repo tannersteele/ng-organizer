@@ -10,11 +10,11 @@ export class RecipeListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
 
   recipes : Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simply a test', 
+    new Recipe('First Test Recipe', 'Yum!', 
+    'http://exoduslasvegas.com/wp-content/uploads/2016/11/Tiesto-1.jpg'),
+    new Recipe('Second Test Recipe', 'Yummy!!', 
     'https://www.bbcgoodfood.com/sites/default/files/styles/carousel_medium/public/recipe-collections/collection-image/2013/05/frying-pan-pizza-easy-recipe-collection.jpg?itok=naGPMoRQ'),
-    new Recipe('A Test Recipe', 'This is simply a test', 
-    'https://www.bbcgoodfood.com/sites/default/files/styles/carousel_medium/public/recipe-collections/collection-image/2013/05/frying-pan-pizza-easy-recipe-collection.jpg?itok=naGPMoRQ'),
-    new Recipe('A Test Recipe', 'This is simply a test', 
+    new Recipe('Third Test Recipe', 'YUMMM!', 
     'https://www.bbcgoodfood.com/sites/default/files/styles/carousel_medium/public/recipe-collections/collection-image/2013/05/frying-pan-pizza-easy-recipe-collection.jpg?itok=naGPMoRQ')
   ];
 
